@@ -1,0 +1,86 @@
+body{
+    background-color: #ffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+main{
+    margin-top: 30px;
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    color: #333;
+}
+
+main #title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main .title-desc{
+    text-align: center;
+}
+
+#img-div{
+    margin-bottom: 50px;
+    background-color: #ffff;
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+#img-div img{
+    max-width: 98%;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-div #img-caption{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+.life-list-div, .quote{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .life-list-div .life-list-text{
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 1.5rem; */
+}
+
+main .life-list-div .life-list{
+    font-size: 1rem;
+}
+
+main .life-list-div .life-list li{
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+main .life-list-div .life-list li span{
+    font-weight: bold;
+}
+
+.quote{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+#tribute-info{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tribute-info a{
+    color: rgb(102, 102, 223);
+}
